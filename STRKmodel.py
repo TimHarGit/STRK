@@ -63,7 +63,8 @@ def _():
     # Adjust layout to prevent overlap
     plt.tight_layout()
 
-    return fig
+    fig
+    return
 
 
 if __name__ == "__main__":
