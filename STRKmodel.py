@@ -1,8 +1,8 @@
 # /// script
 # dependencies = [
 #     "marimo",
-#     "matplotlib==3.10.8",
-#     "numpy==2.4.1",
+#     "matplotlib",
+#     "numpy",
 # ]
 # ///
 
@@ -63,9 +63,7 @@ def _():
     # Adjust layout to prevent overlap
     plt.tight_layout()
 
-    plt.show()
-
-    return
+    return fig
 
 
 if __name__ == "__main__":
