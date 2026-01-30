@@ -1,8 +1,8 @@
 # /// script
 # dependencies = [
 #     "marimo",
-#     "plotly==5.24.1",
-#     "numpy==2.4.1",
+#     "plotly",
+#     "numpy",
 # ]
 # ///
 
