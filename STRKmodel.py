@@ -14,7 +14,7 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _():
-    #Source: https://buffalodyl.com/STRK.html    https://x.com/BuffaloDylBTC/status/1898194173016060089/photo/1 
+    #Source: https://buffalodyl.com/STRK.html    https://x.com/BuffaloDylBTC/status/1898194173016060089/photo/1
 
     import numpy as np
     import matplotlib.pyplot as plt
@@ -48,7 +48,7 @@ def _():
     ax.plot_wireframe(X, Y, Z, color='black', linewidth=0.5, zorder=2)
 
     # Add vertical line segment from surface to current STRK
-    ax.plot([current_ust, current_ust], [current_mstr, current_mstr], [surface_strk, current_strk], 
+    ax.plot([current_ust, current_ust], [current_mstr, current_mstr], [surface_strk, current_strk],
             color='red', linewidth=4, zorder=3)
 
     # Customize labels and title
@@ -64,7 +64,7 @@ def _():
     plt.tight_layout()
 
     plt.show()
-            
+
     return
 
 
